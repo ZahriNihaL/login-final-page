@@ -1,0 +1,40 @@
+.leftside img{
+    height: 100%;
+    width: 100%;
+}
+.rightside{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    padding-left: 7.2rem;
+    color: rgb(132, 132, 245);
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maincol{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    background-color: rgb(236, 236, 236);
+}
+.maincol .card{
+    height: 75%;
+    border-radius: 1rem;
+}
+.card-body{
+    padding: 0%;
+}
